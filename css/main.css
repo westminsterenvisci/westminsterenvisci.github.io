@@ -1,0 +1,108 @@
+/** {
+    border: 1px solid red;
+    box-sizing: border-box;
+}/*This places the red box around our grid*/
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 22px;
+    padding-top: 1em;
+    padding-left: .8em;
+    letter-spacing: .05em;
+
+
+
+}/*This tells me that anything assigned the h1 "tag"
+will be in the Oswald font I imported from google, will
+use sans-serif fonts if a computer doesn't have oswald,
+that oswald will be lighter, will have a font-size of 22
+pixels, will have spacing at the top and left of 1 em and .8
+em respectively with letters spread an extra .05em apart.
+An em is the width of one "m" character in that particular font*/
+
+h2{
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 1em;
+
+
+
+}
+h2-2{
+    font-family: 'Raleway' , sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 1em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    }
+
+.row {padding-right: 2em;}/*If I put a dot, that
+means I can assign it as a class like <h1 class="navy">
+Anything in those brackets will have the characteristics of
+the h1 tag AND the navy tag. I can name these whatever I want
+and just make them up*/
+
+.logo {
+    max-width: 100%;
+    resize: both;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    align-content: center;
+}
+
+.img {
+    max-width: 100%;
+    resize: both;
+    padding: 20px;
+}
+
+.reading-area {
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 750px) {.col-xs-4{width: 100%;}}
+
+.col-xs-12 {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    background-image: url("../images/calcedonia.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.firstblock {background-color: #D2DBDB;}
+
+.secondblock {background-color: #f2eddb;}
+
+.brown   {
+    color: #C78313;}
+
+.navy {
+    color: #11625C;
+}
+.white {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
