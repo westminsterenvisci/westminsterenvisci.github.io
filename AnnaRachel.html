@@ -1,0 +1,70 @@
+<!DOCTYPE html><!--This tells your web browser to interpret this file as html, always add this first-->
+<html lang="en"><!--Language is English-->
+<head><!--The part of your file that doesn't show up on the computer screen-->
+  <meta charset="utf-8"><!--Don't worry about this but add it-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Allows it to work on dumb old internet explorer-->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--This is called a responsive design, that means when you change the width of your viewport(your browser window) the content scales with it instead of being cut off, it makes it visible on phones and smaller computers as well as large screens-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><!--These links specify the fonts you want to use. You can go to fonts.google.com to browse available fonts and if you find one you want besides these, I can definitely show you how to import it. It's like copying and pasting that link-->
+      <title>Anna and Rachel: <!--Add your animal group name here--></title><!--This is what shows up on the actual tab. Like where it says "Learning Management System" when you go to schoology.com-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/AnnaRachel.css"><!--These tell our file to look at those two files listed above to understand how to style our page, if you edit those you can change colors and sizes and fonts and all sorts of things, so that it doesn't look like a word document. You will only be working in main.css and will let bootstrap.min.css do all the hard stuff for you-->
+
+</head><!--End of secret content-->
+
+<body><!--Beginning of Visible Things-->
+
+  <div class="container-fluid"><!--This is the box all of our content will go in, think of laying out your webpage like laying out a grid
+
+  We will use rows and columns like a child graphing things. A row will go all the way across the page, so it has an assigned width of 100%. There are 12 columns used in most websites and in yours. You can assign a column of content to any number of columns. For instance if you want a block of text to take up the left half of the page, put it in a column that is 6 columns wide because that's half of 12. That column would be called "col-xs-6" because bootstrap labels it that way. Red lines will outline our grid for now and I can show you how to remove them so that you can see what your webpage would actually look like-->
+
+    <!--Title-->
+    <div class="row">
+      <div class="col-xs-12"><img src="images/AnnaRachelLogo.png" class="img" style="max-height: 450px; display: block; margin: auto;">
+      </div>
+    </div>
+
+    <!--Image, if you want this to fill up the whole background let me know we will remove the image below. I can show you how to replace either cat picture and we'll delete the other-->
+    <div class="row thirdblock">
+      <div class="col-xs-12"><img src="images/placeholder.jpg" class="img"></div>
+    </div>
+
+    <!--Text: we can change background color, background picture, and fonts as you like-->
+    <div class="row">
+      <div class="col-xs-12 firstblock"><h1 class="brown">Place Text Here</h1></div>
+    </div>
+
+    <!--We can resize this to 1/3 and 2/3 if you think the picture is too small-->
+    <div class="row secondblock">
+      <div class="col-xs-3" style="display: inline-block; margin-top: 10%; margin-bottom: 10%;"><img src="images/placeholder.jpg" class="img"></div>
+      <div class="col-xs-9"><h1 class="brown">Place Text Here</h1><h2-2 class="navy">The image will expand as the text gets longer. br inside brackets is like hitting the enter key and can provide more space<br><br><br></div>
+    </div>
+
+    <div class="row secondblock">
+      <div class="col-xs-9"><h1 class="brown">Place Text Here</h1><h2-2 class="navy">The image will expand as the text gets longer. br inside brackets is like hitting the enter key and can provide more space<br><br><br></div><div class="col-xs-3" style="display: inline-block; margin-top: 10%; margin-bottom: 10%;"><img src="images/placeholder.jpg" class="img"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12"><h1><br><br></h1></div>
+    </div>
+
+    <div class="row secondblock">
+      <div class="col-xs-3" style="display: inline-block; margin-top: 10%; margin-bottom: 10%;"><img src="images/placeholder.jpg" class="img"></div>
+      <div class="col-xs-9"><h1 class="brown">Place Text Here</h1><h2-2 class="navy">The image will expand as the text gets longer. br inside brackets is like hitting the enter key and can provide more space. We can also add spaces between like the one above.<br><br><br></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12"><h1><br><br></h1></div>
+    </div>
+
+    <div class="row firstblock">
+      <div class="col-xs-6"><h1 class="brown">Columns</h1><br><h2-2 class="navy">You'll typically want your text, especially if it's long, to display in two columns.</h2-2></div>
+      <div class="col-xs-6"><h2-2 class="navy"><br><br><br>It makes for easier reading since the eye does best at 65 characters a line.<br>We can also replicate these columns and rows as many times as we'd like to allow for more space and content.</h2-2></div>
+    </div>
+
+
+  </div>
+</body>
+</html>
+
